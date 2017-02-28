@@ -9,9 +9,16 @@
 
 ## 手順
 
-本家の更新を取得後、日本語ドキュメントに反映します。
-
+以下のコマンドで、本家の更新を取得します。
 ```sh
 $ git checkout gh-pages-en
 $ git pull upstream gh-pages
+$ git checkout gh-pages
+$ git merge gh-pages-en
+```
+
+変更あった箇所を変更し、pushします。
+```sh
+$ vim example.html
+$ git push origin gh-pages
 ```
