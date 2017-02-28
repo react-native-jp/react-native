@@ -17,5 +17,5 @@ $ git merge gh-pages-en
 ```
 
 ## 翻訳手順
-翻訳される方は、以下の翻訳ガイドをご覧ください。
+翻訳される方は、以下の翻訳ガイドをご覧ください。  
 [React Native日本語翻訳ガイド](https://github.com/react-native-jp/react-native/blob/gh-pages/CONTRIBUTING.md)
