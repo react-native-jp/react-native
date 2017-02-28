@@ -11,6 +11,7 @@
 以下のコマンドで、本家の更新を取得します。
 ```sh
 $ git checkout gh-pages-en
+$ git remote add upstream https://github.com/facebook/react-native
 $ git pull upstream gh-pages
 $ git checkout gh-pages
 $ git merge gh-pages-en
