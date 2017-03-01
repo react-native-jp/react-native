@@ -38,7 +38,7 @@
 
 </span><span><block class="linux windows ios" />
 
-</span><h2><a class="anchor" name="unsupported"></a>Unsupported <a class="hash-link" href="docs/getting-started.html#unsupported">#</a></h2><span><div>Unfortunately, Apple only lets you develop for iOS on a Mac. If you want to build an iOS app but you don't have a Mac yet, you can try starting with the <a href="" onclick="display('platform', 'android')">Android</a> instructions instead.</div>
+</span><h2><a class="anchor" name="unsupported"></a>サポートされていません<a class="hash-link" href="docs/getting-started.html#unsupported">#</a></h2><span><div>残念ながら、MacでしかiOS用に開発することはできません。iOSアプリを構築したいがまだMacをお持ちでない場合は、<a href="" onclick="display('platform', 'android')">Android</a>の手順から始めてみてください。</div>
 
 </span><span><center><img src="img/react-native-sorry-not-supported.png" width="150"></img></center>
 
@@ -64,10 +64,10 @@ choco install python2</div><blockquote><p>You can find additional installation o
 
 </span><h3><a class="anchor" name="xcode"></a>Xcode <a class="hash-link" href="docs/getting-started.html#xcode">#</a></h3><p>Xcodeをインストールする最も簡単な方法は、<a href="https://itunes.apple.com/us/app/xcode/id497799835?mt=12" target="_blank">Mac App Store</a>経由です。Xcodeをインストールすると、iOSシミュレータとiOSアプリを構築するのに必要なすべてのツールもインストールされます。</p><span><block class="mac linux windows android" />
 
-</span><h3><a class="anchor" name="android-development-environment"></a>Android Development Environment <a class="hash-link" href="docs/getting-started.html#android-development-environment">#</a></h3><p>Setting up your development environment can be somewhat tedious if you&#x27;re new to Android development. If you&#x27;re already familiar with Android development, there are a few things you may need to configure. In either case, please make sure to carefully follow the next few steps.</p><h4><a class="anchor" name="1-download-and-install-android-studio"></a>1. Download and install Android Studio <a class="hash-link" href="docs/getting-started.html#1-download-and-install-android-studio">#</a></h4><p><a href="https://developer.android.com/studio/install.html" target="_blank">Android Studio</a> provides the Android SDK and AVD (emulator) required to run and test your React Native apps.</p><span><block class="mac android" />
+</span><h3><a class="anchor" name="android-development-environment"></a>Android開発環境<a class="hash-link" href="docs/getting-started.html#android-development-environment">#</a></h3><p>Android開発が初めての方にとって、開発環境の設定は面倒です。既にAndroid開発に精通している場合も、設定が必要な場合があります。いずれの場合も、次のステップに注意深く従ってください。</p><h4><a class="anchor" name="1-download-and-install-android-studio"></a>1. Android Studioをダウンロードしてインストールしてください<a class="hash-link" href="docs/getting-started.html#1-download-and-install-android-studio">#</a></h4><p><a href="https://developer.android.com/studio/install.html" target="_blank">Android Studio</a>には、React Nativeアプリの実行とテストに必要なAndroid SDKとAVD(エミュレータ)が用意されています。</p><span><block class="mac android" />
 
-</span><blockquote><p>Android Studio requires the <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank">Java SE Development Kit(JDK)</a>, version 8. You can type <code>javac -version</code> in a terminal to see what version you have, if any.</p></blockquote><div class="prism language-javascript">$ javac <span class="token operator">-</span>version
-javac <span class="token number">1.8</span><span class="token punctuation">.</span>0_111</div><blockquote><p>The version string <code>1.8.x_xxx</code> corresponds to JDK 8.</p></blockquote><span><block class="mac windows android" />
+</span><blockquote><p>Android Studioには、<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank">Java SE Development Kit(JDK)</a>バージョン8が必要です。ターミナルに<code>javac -version</code>を入力して、使用しているバージョンがある場合は確認できます。</p></blockquote><div class="prism language-javascript">$ javac <span class="token operator">-</span>version
+javac <span class="token number">1.8</span><span class="token punctuation">.</span>0_111</div><blockquote><p>バージョン<code>1.8.x_xxx</code>はJDK 8に対応しています。</p></blockquote><span><block class="mac windows android" />
 
 </span><h4><a class="anchor" name="2-install-the-avd-and-haxm"></a>2. Install the AVD and HAXM <a class="hash-link" href="docs/getting-started.html#2-install-the-avd-and-haxm">#</a></h4><p>Choose <code>Custom</code> installation when running Android Studio for the first time. Make sure the boxes next to all of the following are checked:</p><ul><li><code>Android SDK</code></li><li><code>Android SDK Platform</code></li><li><code>Performance (Intel ® HAXM)</code></li><li><code>Android Virtual Device</code></li></ul><p>Then, click &quot;Next&quot; to install all of these components.</p><blockquote><p>If you&#x27;ve already installed Android Studio before, you can still <a href="https://software.intel.com/en-us/android/articles/installation-instructions-for-intel-hardware-accelerated-execution-manager-windows" target="_blank">install HAXM</a> without performing a custom installation.</p></blockquote><span><block class="linux android" />
 
@@ -109,7 +109,7 @@ react<span class="token operator">-</span>native run<span class="token operator"
 
 </span><ul><li>Open <code>index.android.js</code>を開いて、テキストエディタでいくつかの行を編集しましょう。</li><li>Press the <code>R</code> key twice or select <code>Reload</code> from the Developer Menu to see your change!</li></ul><span><block class="mac ios android" />
 
-</span><h3><a class="anchor" name="that-s-it"></a>おしまい!<a class="hash-link" href="docs/getting-started.html#that-s-it">#</a></h3><p>おめでとうございます！あなたは最初のReact Nativeアプリを正常に実行し、修正しました。</p><span><center><img src="img/react-native-congratulations.png" width="150"></img></center>
+</span><h3><a class="anchor" name="that-s-it"></a>おしまい！<a class="hash-link" href="docs/getting-started.html#that-s-it">#</a></h3><p>おめでとうございます！あなたは最初のReact Nativeアプリを正常に実行し、修正しました。</p><span><center><img src="img/react-native-congratulations.png" width="150"></img></center>
 
 </span><span><block class="windows android" />
 
@@ -129,10 +129,10 @@ react<span class="token operator">-</span>native run<span class="token operator"
 
 </span><span><block class="mac ios" />
 
-</span><h2><a class="anchor" name="now-what"></a>つぎは?<a class="hash-link" href="docs/getting-started.html#now-what">#</a></h2><ul><li><p>この新しいReactネイティブコードを既存のアプリケーションに追加する場合は、<a href="docs/integration-with-existing-apps.html" target="_blank">Integrationガイド</a>を参照してください。</p></li><li><p>もし動作させることができない場合は、<a href="docs/troubleshooting.html#content" target="_blank">トラブルシューティング</a>のページを参照してください。</p></li><li><p>React Nativeについてもっと知りたい人は、
+</span><h2><a class="anchor" name="now-what"></a>つぎは？<a class="hash-link" href="docs/getting-started.html#now-what">#</a></h2><ul><li><p>この新しいReactネイティブコードを既存のアプリケーションに追加する場合は、<a href="docs/integration-with-existing-apps.html" target="_blank">Integrationガイド</a>を参照してください。</p></li><li><p>もし動作させることができない場合は、<a href="docs/troubleshooting.html#content" target="_blank">トラブルシューティング</a>のページを参照してください。</p></li><li><p>React Nativeについてもっと知りたい人は、
 <a href="docs/tutorial.html" target="_blank">チュートリアル</a>を続けてください。</p></li></ul><span><block class="windows linux mac android" />
 
-</span><h2><a class="anchor" name="now-what"></a>つぎは?<a class="hash-link" href="docs/getting-started.html#now-what">#</a></h2><ul><li><p>この新しいReactネイティブコードを既存のアプリケーションに追加する場合は、<a href="docs/integration-with-existing-apps.html" target="_blank">Integrationガイド</a>を参照してください。</p></li><li><p>もし動作させることができない場合は、<a href="docs/troubleshooting.html#content" target="_blank">トラブルシューティング</a>のページを参照してください。</p></li><li><p>React Nativeについてもっと知りたい人は、
+</span><h2><a class="anchor" name="now-what"></a>つぎは？<a class="hash-link" href="docs/getting-started.html#now-what">#</a></h2><ul><li><p>この新しいReactネイティブコードを既存のアプリケーションに追加する場合は、<a href="docs/integration-with-existing-apps.html" target="_blank">Integrationガイド</a>を参照してください。</p></li><li><p>もし動作させることができない場合は、<a href="docs/troubleshooting.html#content" target="_blank">トラブルシューティング</a>のページを参照してください。</p></li><li><p>React Nativeについてもっと知りたい人は、
 <a href="docs/tutorial.html" target="_blank">チュートリアル</a>を続けてください。</p></li></ul><span><script>
 // Convert <div>...<span><block /></span>...</div>
 // Into <div>...<block />...</div>
