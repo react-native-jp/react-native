@@ -1,20 +1,21 @@
 ---
 id: quick-start-getting-started
-title: Getting Started
+title: はじめに
 layout: docs
 category: The Basics
 permalink: docs/getting-started.html
 next: tutorial
 ---
 
-Welcome to React Native! This page will help you install React Native on
-your system, so that you can build apps with it right away. If you already
-have React Native installed, you can skip ahead to the
-[Tutorial](docs/tutorial.html).
+React Nativeへようこそ！  
+React Nativeを導入するためのページです。すぐにアプリケーションを構築できます。  
+React Nativeが既にインストールされている場合は、
+[チュートリアル](docs/tutorial.html)に進んでください。
 
-The instructions are a bit different depending on your development operating system, and whether you want to start developing for iOS or Android. If you
-want to develop for both iOS and Android, that's fine - you just have to pick
-one to start with, since the setup is a bit different.
+導入方法は、開発オペレーティングシステムによって異なります。  
+また、iOSまたはAndroid向けに開発を開始するかどうかでも異なります。  
+iOSとAndroidの両方で開発したいのであれば、それは問題ありません。  
+しかし設定が少し異なるので、最初から選択する必要があります。
 
 <div class="toggler">
   <style>
@@ -44,10 +45,10 @@ one to start with, since the setup is a bit different.
       display: block;
     }
   </style>
-  <span>Mobile OS:</span>
+  <span>モバイルOS:</span>
   <a href="javascript:void(0);" class="button-ios" onclick="display('platform', 'ios')">iOS</a>
   <a href="javascript:void(0);" class="button-android" onclick="display('platform', 'android')">Android</a>
-  <span>Development OS:</span>
+  <span>開発OS:</span>
   <a href="javascript:void(0);" class="button-mac" onclick="display('os', 'mac')">macOS</a>
   <a href="javascript:void(0);" class="button-linux" onclick="display('os', 'linux')">Linux</a>
   <a href="javascript:void(0);" class="button-windows" onclick="display('os', 'windows')">Windows</a>
@@ -55,70 +56,72 @@ one to start with, since the setup is a bit different.
 
 <block class="linux windows ios" />
 
-## Unsupported
+## サポートされていません
 
-<div>Unfortunately, Apple only lets you develop for iOS on a Mac. If you want to build an iOS app but you don't have a Mac yet, you can try starting with the <a href="" onclick="display('platform', 'android')">Android</a> instructions instead.</div>
+<div>残念ながら、MacでしかiOS用に開発することはできません。iOSアプリを構築したいがまだMacをお持ちでない場合は、<a href="" onclick="display('platform', 'android')">Android</a>の手順から始めてみてください。</div>
 
 <center><img src="img/react-native-sorry-not-supported.png" width="150"></img></center>
 
 <block class="mac ios" />
 
-## Installing Dependencies
+## 依存関係のインストール
 
-You will need Node.js, Watchman, the React Native command line interface, and Xcode.
+開発にはNode.js, Watchman, React Nativeコマンドラインインターフェース, Xcodeが必要です。
 
 <block class="mac android" />
 
-## Installing Dependencies
+## 依存関係のインストール
 
-You will need Node.js, Watchman, the React Native command line interface, and Android Studio.
+開発にはNode.js, Watchman, React Nativeコマンドラインインターフェース, Android Studioが必要です。
 
 <block class="windows linux android" />
 
-## Installing Dependencies
+## 依存関係のインストール
 
-You will need Node.js, the React Native command line interface, and Android Studio.
+開発にはNode.js, Watchman, React Nativeコマンドラインインターフェース, Android Studioが必要です。
 
 <block class="mac ios android" />
 
 ### Node, Watchman
 
-We recommend installing Node and Watchman using [Homebrew](http://brew.sh/). Run the following commands in a Terminal after installing Homebrew:
+[Homebrew](http://brew.sh/)を使用してNodeおよびWatchmanをインストールすることをお勧めします。  
+Homebrewをインストールした後、ターミナルで次のコマンドを実行します:
 
 ```
 brew install node
 brew install watchman
 ```
 
-> [Watchman](https://facebook.github.io/watchman) is a tool by Facebook for watching
-changes in the filesystem. It is highly recommended you install it for better performance.
+> [Watchman](https://facebook.github.io/watchman)はファイルシステムの変更を監視するためのFacebookのツールです。  
+より良いパフォーマンスを得るためにインストールすることを強くお勧めします。
 
 <block class="linux android" />
 
 ### Node
 
-Follow the [installation instructions for your Linux distribution](https://nodejs.org/en/download/package-manager/) to install Node.js 4 or newer.
+[Linuxディストリビューションのインストール手順](https://nodejs.org/en/download/package-manager/)に従って、Node.js 4以降をインストールしてください。
 
 <block class='windows android' />
 
 ### Node
 
-We recommend installing Node.js and Python2 via [Chocolatey](https://chocolatey.org), a popular package manager for Windows. Open a Command Prompt as Administrator, then run:
+Node.jsとPython2は、Windows用の一般的なパッケージマネージャである[Chocolatey](https://chocolatey.org)を利用してインストールすることをお勧めします。  
+管理者としてコマンドプロンプトを開き、次のコマンドを実行します:
 
 ```
 choco install nodejs.install
 choco install python2
 ```
 
-> You can find additional installation options on [Node.js's Downloads page](https://nodejs.org/en/download/).
+> 追加のインストールオプションは、[Node.jsのダウンロードページ](https://nodejs.org/en/download/)で見つけることができます。
 
 <block class="mac ios android" />
 
-### The React Native CLI
+### React Nativeコマンドラインインターフェース
 
-Node.js comes with npm, which lets you install the React Native command line interface.
+Node.jsにはnpmが付属しており、React Nativeコマンドラインインターフェイスをインストールできます。
 
-Run the following command in a Terminal:
+ターミナルで次のコマンドを実行します:
 
 ```
 npm install -g react-native-cli
@@ -138,34 +141,37 @@ Run the following command in a Terminal:
 npm install -g react-native-cli
 ```
 
-> If you get an error like `Cannot find module 'npmlog'`, try installing npm directly: `curl -0 -L https://npmjs.org/install.sh | sudo sh`.
+> 次のようなエラーが発生した場合、Cannot find module 'npmlog', npmを直接インストールしてください: curl -0 -L http://npmjs.org/install.sh | sudo sh.
 
 <block class="mac ios" />
 
 ### Xcode
 
-The easiest way to install Xcode is via the [Mac App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12). Installing Xcode will also install the iOS Simulator and all the necessary tools to build your iOS app.
+Xcodeをインストールする最も簡単な方法は、[Mac App Store](https://itunes.apple.com/us/app/xcode/id497799835?mt=12)経由です。  
+Xcodeをインストールすると、iOSシミュレータとiOSアプリを構築するのに必要なすべてのツールもインストールされます。
 
 <block class="mac linux windows android" />
 
-### Android Development Environment
+### Android開発環境
 
-Setting up your development environment can be somewhat tedious if you're new to Android development. If you're already familiar with Android development, there are a few things you may need to configure. In either case, please make sure to carefully follow the next few steps.
+Android開発が初めての方にとって、開発環境の設定は面倒です。  
+既にAndroid開発に精通している場合も、設定が必要な場合があります。  
+いずれの場合も、次のステップに注意深く従ってください。
 
-#### 1. Download and install Android Studio
+#### 1. Android Studioをダウンロードしてインストールしてください
 
-[Android Studio](https://developer.android.com/studio/install.html) provides the Android SDK and AVD (emulator) required to run and test your React Native apps.
+[Android Studio](https://developer.android.com/studio/install.html)には、React Nativeアプリの実行とテストに必要なAndroid SDKとAVD(エミュレータ)が用意されています。
 
 <block class="mac android" />
 
-> Android Studio requires the [Java SE Development Kit(JDK)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html), version 8. You can type `javac -version` in a terminal to see what version you have, if any.
+> Android Studioには、[Java SE Development Kit(JDK)](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)バージョン8が必要です。ターミナルにjavac -versionを入力して、使用しているバージョンがある場合は確認できます。
 
 ```
 $ javac -version
 javac 1.8.0_111
 ```
 
-> The version string `1.8.x_xxx` corresponds to JDK 8.
+> バージョン`1.8.x_xxx`はJDK 8に対応しています。
 
 <block class="mac windows android" />
 
