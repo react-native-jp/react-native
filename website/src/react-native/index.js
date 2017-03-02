@@ -119,7 +119,7 @@ var index = React.createClass({
   render: function() {
     return (
       <Site>
-        <Hero title="React Native" subtitle="Learn once, write anywhere: Build mobile apps with React">
+        <Hero title="React Native" subtitle="一度覚えれば、どこでも書ける: REACTでモバイルアプリを構築する">
           <div className="buttons-unit">
             <a href="docs/getting-started.html#content" className="button">Get started with React Native</a>
           </div>
