@@ -138,29 +138,29 @@ var Site = React.createClass({
                   <img src="img/header_logo.png" alt="React Native" width="66" height="58" />
                 </a>
                 <div>
-                  <h5><a href="docs/">Docs</a></h5>
-                  <a href="docs/getting-started.html">Getting Started</a>
-                  <a href="docs/tutorial.html">Tutorial</a>
-                  <a href="docs/integration-with-existing-apps.html">Integration With Existing Apps</a>
-                  <a href="docs/more-resources.html">More Resources</a>
+                  <h5><a href="docs/">ドキュメント</a></h5>
+                  <a href="docs/getting-started.html">はじめに</a>
+                  <a href="docs/tutorial.html">チュートリアル</a>
+                  <a href="docs/integration-with-existing-apps.html">既存アプリとの統合</a>
+                  <a href="docs/more-resources.html">もっと知る</a>
                 </div>
                 <div>
-                  <h5><a href="/react-native/support.html">Community</a></h5>
-                  <a href="/react-native/showcase.html">Showcase</a>
-                  <a href="http://www.meetup.com/topics/react-native/" target="_blank">Upcoming Events</a>
-                  <a href="https://www.facebook.com/groups/react.native.community" target="_blank">Facebook Group</a>
+                  <h5><a href="/react-native/support.html">コミュニティ</a></h5>
+                  <a href="/react-native/showcase.html">ショーケース</a>
+                  <a href="http://www.meetup.com/topics/react-native/" target="_blank">今後のイベント</a>
+                  <a href="https://www.facebook.com/groups/react.native.community" target="_blank">Facebookグループ</a>
                   <a href="https://twitter.com/reactnative" target="_blank">Twitter</a>
                 </div>
                 <div>
-                  <h5><a href="/react-native/support.html">Help</a></h5>
+                  <h5><a href="/react-native/support.html">ヘルプ</a></h5>
                   <a href="http://stackoverflow.com/questions/tagged/react-native" target="_blank">Stack Overflow</a>
-                  <a href="https://discord.gg/0ZcbPKXt5bZjGY5n">Reactiflux Chat</a>
-                  <a href="/react-native/versions.html" target="_blank">Latest Releases</a>
-                  <a href="https://react-native.canny.io/feature-requests" target="_blank">Feature Requests</a>
+                  <a href="https://discord.gg/0ZcbPKXt5bZjGY5n">Reactifluxチャット</a>
+                  <a href="/react-native/versions.html" target="_blank">最新のリリース</a>
+                  <a href="https://react-native.canny.io/feature-requests" target="_blank">機能のリクエスト</a>
                 </div>
                 <div>
-                  <h5>More</h5>
-                  <a href="/react-native/blog">Blog</a>
+                  <h5>詳しく知る</h5>
+                  <a href="/react-native/blog">ブログ</a>
                   <a href="https://github.com/facebook/react-native" target="_blank">GitHub</a>
                   <a href="http://facebook.github.io/react/" target="_blank">React</a>
                 </div>
@@ -170,7 +170,7 @@ var Site = React.createClass({
                   <form action="//reactnative.us10.list-manage.com/subscribe/post?u=db0dd948e2b729ee62625b1a8&amp;id=47cd41008f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
                     <div id="mc_embed_signup_scroll">
                       <label htmlFor="mce-EMAIL">
-                        <h5>Get the React Native Newsletter</h5>
+                        <h5>React Nativeについてのお知らせを受け取る</h5>
                       </label>
                       <input type="email" value="" name="EMAIL" className="email" id="mce-EMAIL" placeholder="email address" required />
                       <div style={{position: 'absolute', left: '-5000px'}} aria-hidden="true">

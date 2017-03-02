@@ -15,10 +15,10 @@ var React = require('React');
 
 var HeaderLinks = React.createClass({
   linksInternal: [
-    {section: 'docs', href: 'docs/getting-started.html', text: 'Docs', target: '.nav-docs'},
-    {section: 'support', href: '/react-native/support.html', text: 'Help'},
-    {section: 'showcase', href: '/react-native/showcase.html', text: 'Showcase'},
-    {section: 'blog', href: '/react-native/blog/', text: 'Blog'},
+    {section: 'docs', href: 'docs/getting-started.html', text: 'ドキュメント', target: '.nav-docs'},
+    {section: 'support', href: '/react-native/support.html', text: 'ヘルプ'},
+    {section: 'showcase', href: '/react-native/showcase.html', text: 'ショーケース'},
+    {section: 'blog', href: '/react-native/blog/', text: 'ブログ'},
   ],
   linksExternal: [
     {section: 'github', href: 'https://github.com/facebook/react-native', text: 'GitHub'},

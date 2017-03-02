@@ -121,7 +121,7 @@ var index = React.createClass({
       <Site>
         <Hero title="React Native" subtitle="一度覚えれば、どこでも書ける: REACTでモバイルアプリを構築する">
           <div className="buttons-unit">
-            <a href="docs/getting-started.html#content" className="button">Get started with React Native</a>
+            <a href="docs/getting-started.html#content" className="button">React Nativeをはじめる</a>
           </div>
         </Hero>
 
@@ -129,9 +129,9 @@ var index = React.createClass({
 
           <div style={{margin: '40px auto', maxWidth: 800}}>
 
-            <h2>Build Native Mobile Apps using JavaScript and React</h2>
+            <h2>JavaScriptとReactだけでネイティブモバイルアプリを構築できる</h2>
             <p>
-              React Native lets you build mobile apps using only JavaScript. It uses the same design as React, letting you compose a rich mobile UI from declarative components.
+              React Nativeでは、JavaScriptのみを使用してモバイルアプリを構築できます。Reactと同じシンタックスを使用しており、宣言的なコンポーネントから豊富なモバイルUIを作成できます。
             </p>
 
             <Prism>
@@ -156,9 +156,9 @@ class WhyReactNativeIsSoGreat extends Component {
 }`}
             </Prism>
 
-            <h2>A React Native App is a Real Mobile App</h2>
+            <h2>React Nativeアプリはネイティブなモバイルアプリです</h2>
             <p>
-              With React Native, you don't build a “mobile web app”, an “HTML5 app”, or a “hybrid app”. You build a real mobile app that's indistinguishable from an app built using Objective-C or Java. React Native uses the same fundamental UI building blocks as regular iOS and Android apps. You just put those building blocks together using JavaScript and React.
+              React Nativeでは、「モバイルウェブアプリ」、「HTML5アプリ」、または「ハイブリッドアプリ」ではありません。 Objective-CまたはJavaを使用して作成されたアプリと区別がつかない、ネイティブモバイルアプリを構築します。 React Nativeは、通常のiOSやAndroidアプリと同じ基本的なUIビルディングブロックを使用します。JavaScriptとReactを使用して、これらのビルディングブロックをまとめているだけです。
             </p>
 
             <Prism>
@@ -186,16 +186,16 @@ class AwkwardScrollingImageWithText extends Component {
 }`}
             </Prism>
 
-            <h2>Don't Waste Time Recompiling</h2>
+            <h2>コンパイル時間を無駄にしない</h2>
             <p>
-              React Native lets you build your app faster. Instead of recompiling, you can reload your app instantly. With hot reloading, you can even run new code while retaining your application state. Give it a try - it's a magical experience.
+               React Nativeを使用すると、アプリをより速く構築できます。再コンパイルするのではなく、即座にリロードすることができます。さらにホットリロードを使用すると、アプリケーションの状態を維持しながら新しいコードを実行することもできます。
             </p>
             <br />
             <img src="https://media.giphy.com/media/13WZniThXy0hSE/giphy.gif" />
 
-            <h2>Use Native Code When You Need To</h2>
+            <h2>必要なときにネイティブコードを使用する</h2>
             <p>
-              React Native combines smoothly with components written in Objective-C, Java, or Swift. It's simple to drop down to native code if you need to optimize a few aspects of your application. It's also easy to build part of your app in React Native, and part of your app using native code directly - that's how the Facebook app works.
+              React Nativeは、Objective-C、Java、またはSwiftで書かれたコンポーネントと簡単に結合します。アプリケーションの最適化する必要がある場合は、ネイティブコードに簡単にドロップできます。React Nativeでアプリケーションの一部を構築したり、ネイティブコードを直接使用してアプリケーションの一部を構築することも簡単です。
             </p>
 
             <Prism>
@@ -221,21 +221,21 @@ class SomethingFast extends Component {
 
           <section className="home-bottom-section">
             <div className="buttons-unit">
-              <a href="docs/getting-started.html#content" className="button">Get started with React Native</a>
+              <a href="docs/getting-started.html#content" className="button">React Nativeをはじめる</a>
             </div>
           </section>
 
           <section className="home-showcase-section">
-            <h2>Who's using React Native?</h2>
+            <h2>どんなサービスがReact Nativeを利用していますか？</h2>
             <p>
-              Thousands of apps are using React Native, from established Fortune 500 companies to hot new startups. If you're curious to see what can be accomplished with React Native, check out these apps!
+              何千ものアプリケーションが、React Nativeを利用しています。React Nativeで何ができるかを知りたいなら、これらのアプリをチェックしてください！
             </p>
             <AppList apps={apps} />
             <p className="footnote">
-              Some of these are hybrid native/React Native apps.
+              これらの中にはReact Nativeとネイティブのハイブリッドアプリも含まれます。
             </p>
             <div className="buttons-unit">
-              <a href="/react-native/showcase.html" className="button">More React Native apps</a>
+              <a href="/react-native/showcase.html" className="button">React Nativeアプリをもっと見る</a>
             </div>
           </section>
         </section>
